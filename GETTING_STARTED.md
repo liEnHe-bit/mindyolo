@@ -82,7 +82,7 @@
   
   - The default device is Ascend, and you can modify it by specifying 'device_target' as Ascend/CPU, as these are currently supported.
 
-  - For more options, see `train/test.py -h`.
+  - For more options, see `train.py -h` and `test.py -h` .
 
   - Notice that if you are using `msrun` startup with 2 devices, please add `--bind_core=True` to improve performance. For example:
 
