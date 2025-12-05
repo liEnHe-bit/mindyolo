@@ -60,7 +60,7 @@ python demo/predict.py --config ./configs/yolov7/yolov7.yaml --weight=/path_to_c
   ```
   
 *注意：默认超参为8卡训练，单卡情况需调整部分参数。 默认设备为Ascend，您可以指定'device_target'的值为Ascend/CPU。*
-* 有关更多选项，请参阅 `train/test.py -h`.
+* 有关更多选项，请参阅 `train.py -h` 和 `test.py -h`.
 * 在云脑上进行训练，请在[这里](./tutorials/cloud/modelarts_CN.md)查看
 
 *注意：如果您在 2 个设备上使用`msrun`指令启动，请添加`--bind_core=True`以提高性能。例如：
