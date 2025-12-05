@@ -4,7 +4,7 @@
 
 ### 1 安装依赖
    ```shell
-   pip install -r requirement.txt
+   pip install -r requirements.txt
    ```
 
 ### 2 安装MindSpore Lite
